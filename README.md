@@ -12,3 +12,10 @@ of system manager. Most of the scripts are written in shell and python.
 + Zero configuration is needed.
 + Support reinstall.
 + Platform independent (unix like platform).
+
+## Tested platforms
+
++ Mysql 5.6.20
+
+	+ Ubuntu 12.10
+	+ CentOS 7
