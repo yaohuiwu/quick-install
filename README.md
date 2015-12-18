@@ -17,10 +17,15 @@ of system manager. Most of the scripts are written in shell and python.
 
 1. How to install Mysql ?
 
+	Since mysql need libaio library, the 'installMysql.sh' script will use apt-get or yum to install it.
+Networking must be enabled in your machine.
+
 	+ to install master:
+			
 			sudo ./installMysql.sh /path/to/mysql-5.6.20-linux-glibc2.5-x86_64.tar.gz
 	
 	+ to install a slave:
+
 			sudo ./installMysql.sh /path/to/mysql-5.6.20-linux-glibc2.5-x86_64.tar.gz 2 master_ip
 
 ## Tested platforms
