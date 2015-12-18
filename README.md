@@ -13,6 +13,16 @@ of system manager. Most of the scripts are written in shell and python.
 + Support reinstall.
 + Platform independent (unix like platform).
 
+## Usage
+
+1. How to install Mysql ?
+
+	+ to install master:
+			sudo ./installMysql.sh /path/to/mysql-5.6.20-linux-glibc2.5-x86_64.tar.gz
+	
+	+ to install a slave:
+			sudo ./installMysql.sh /path/to/mysql-5.6.20-linux-glibc2.5-x86_64.tar.gz 2 master_ip
+
 ## Tested platforms
 
 + Mysql 5.6.20
